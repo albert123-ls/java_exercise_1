@@ -35,5 +35,6 @@ public class Launcher {
             }
             else System.out.println("Unkown command");
         } while (true);
+        sc.close();
     }
 }
